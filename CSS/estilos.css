@@ -1,0 +1,1093 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'open sans';
+}
+ 
+header{
+   width: 100%;
+   height: 500px;
+   background-color: green;
+   background: url(../IMG/Logo\ Principal.jpg);
+   background-size: 100%;
+   background-attachment: fixed;
+   position: relative;
+}
+
+nav{
+   text-align: center;
+   padding-top: 400px;
+}
+
+nav > a {
+   font-size: 40px;
+   color: yellow;
+   text-decoration: none;
+   margin-right: 30px;
+   margin-top: 500px;
+}
+
+nav > a:hover{
+   text-decoration: underline;
+}
+
+.Curva{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+
+/* main */
+
+main{
+   background: linear-gradient(rgba(0, 255, 55, 0.8), 
+   rgba(89, 0, 255, 0.8));
+   width: 100%;
+   height: auto;
+   padding: 5%;
+   box-sizing: border-box;
+}
+
+h1{
+   font-size: 62px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   padding-bottom: 50px;
+}
+
+.beneficios{
+   display: flex;
+   padding: 0.1px;
+}
+.p{
+   font-size: 20px;
+   padding-bottom: 25px;
+   color: yellow;
+}
+
+
+
+.beneficios__dat{
+   background-color: red;
+   padding: 50px;
+   width: 45%;
+   border-radius: 40px;
+   text-align: center;
+   border: 3px solid black;
+   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+   margin-right: 10%;
+}
+.beneficios__img{
+   width: 100%;
+}
+.beneficios__1{
+   padding-bottom: 15px;
+   font-size: 50px;
+   justify-content: center;
+   color: blue;
+}
+.beneficios__11{
+   padding-bottom: 10px;
+   font-size: 25px;
+}
+
+
+
+.beneficios__dat1{
+   background-color: blue;
+   padding: 50px;
+   width: 45%;
+   border-radius: 40px;
+   text-align: center;
+   border: 3px solid black;
+   box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
+}
+.beneficios__img1{
+   width: 100%;
+}
+.beneficios__2{
+   padding-bottom: 15px;
+   font-size: 50px;
+   justify-content: center;
+   color: red;
+}
+.beneficios__22{
+   padding-bottom: 10px;
+   font-size: 25px;
+}
+
+
+
+
+
+
+/* Footer */
+
+
+footer{
+   background: #414141;
+   padding: 50px 0 30px 0;
+   margin: auto;
+   overflow: hidden;
+}
+
+.contenedor-footer{
+   display: flex;
+   width: 90%;
+   justify-content: space-evenly;
+   margin: auto;
+   padding-bottom: 50px;
+   border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+   text-align: center;
+}
+
+.content-foo h4{
+   color: #fff;
+   border-bottom: 3px solid #af20d3;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+   font-size: 19px;
+}
+
+.content-foo p{
+   color: #ccc;
+   font-size: 16px;
+}
+
+.face{
+   color: #ccc;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.Titulo-Final{
+   text-align: center;
+   font-size: 30px;
+   margin: 20px 0 0 0;
+   color: #ff4800;
+}
+
+
+
+
+
+
+/* Adaptacion a Movil */
+
+@media screen and (max-width:1111px){
+
+   /* Header */
+   header{
+      width: 100%;
+      height: 450px;
+   }
+   nav{
+      padding-top: 340px;
+   }
+   nav > a {
+      font-size: 45px;
+      margin-right: 20px;
+   }
+
+   /* Main */
+   h1{
+      font-size: 75px;
+   }
+
+}
+
+
+@media screen and (max-width:1000px){
+
+   /* Header */
+   header{
+      width: 100%;
+      height: 380px;
+   }
+   nav{
+      padding-top: 320px;
+   }
+   nav > a {
+      font-size: 40px;
+      margin-right: 19px;
+   }
+   
+   .Curva{
+      visibility: hidden;
+   }
+
+   /* Main */
+   h1{
+      font-size: 75px;
+   }
+
+}
+
+@media screen and (max-width:900px){
+   header{
+      width: 100%;
+      height: 360px;
+   }
+   nav{
+      padding-top: 300px;
+   }
+   nav > a {
+      font-size: 36px;
+      margin-right: 19px;
+   }
+
+}
+
+@media screen and (max-width:800px){
+   header{
+      height: 310px;
+   }
+   nav{
+      padding-top: 254px;
+   }
+   nav > a {
+      font-size: 30px;
+      margin-right: 19px;
+   }
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:700px){
+   main{
+      padding: 3%;
+   }
+   header{
+      height: auto;
+   }
+   nav{
+      width: 100%;
+      padding-top: 33%;
+      margin: 0 auto;
+   }
+   nav > a {
+      font-size: 26px;
+      margin-right: 1%;
+      margin-top: 10px;
+   }
+   
+   /* Main */
+   h1{
+      font-size: 35px;
+      padding-bottom: 5%;
+   }
+
+
+   .p{
+      font-size: 20px;
+      padding-bottom: 5%;
+   }
+
+
+   .beneficios__dat{
+      background-color: green;
+      margin: 0 auto;
+      width: 45%;
+      padding: 5%;
+      border-radius: 50px;
+      border: 2px solid black;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img{
+      width: 90%;
+   }
+   .beneficios__1{
+      padding-bottom: 1%;
+      font-size: 31px;
+   }
+   .beneficios__11{
+      padding-bottom: 3%;
+      font-size: 25px;
+   }
+   
+   
+   .beneficios__dat1{
+      background-color: green;
+      margin: 0 auto;
+      width: 45%;
+      padding: 5%;
+      border-radius: 50px;
+      border: 2px solid black;
+      box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img1{
+      border-radius: 30%;
+      width: 90%;
+   }
+   .beneficios__2{     
+      color: blue;
+      padding-bottom: 1%;
+      font-size: 31px;
+   }
+   .beneficios__22{
+      padding-bottom: 3%;
+      font-size: 25px;
+   }
+   
+
+   /* Footer */
+   footer{
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+   .contenedor-footer{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+   }
+   .content-foo h4{
+      border-bottom: 0px solid #af20d3;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 20px;
+   }
+   .content-foo p{
+      border-bottom: 0px solid #af20d3;
+      margin-bottom: 5%;
+      font-size: 20px;
+   }
+   .face{
+      font-size: 20px;
+   }
+
+   .Titulo-Final{
+      margin-top: 5%;
+      font-size: 31px;
+      color: #ff4800;
+   }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+   main{
+      padding: 3%;
+   }
+   header{
+      height: auto;
+   }
+   nav{
+      width: 100%;
+      padding-top: 33%;
+      margin: 0 auto;
+   }
+   nav > a {
+      font-size: 26px;
+      margin-right: 1%;
+      margin-top: 10px;
+   }
+   
+   /* Main */
+   h1{
+      font-size: 37px;
+      padding-bottom: 5%;
+   }
+
+
+   .p{
+      font-size: 18px;
+      padding-bottom: 5%;
+   }
+
+
+   .beneficios__dat{
+      background-color: green;
+      margin: 0 auto;
+      width: 45%;
+      padding: 3%;
+      border-radius: 50px;
+      border: 2px solid black;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img{
+      width: 90%;
+   }
+   .beneficios__1{
+      padding-bottom: 1%;
+      font-size: 28px;
+   }
+   .beneficios__11{
+      padding-bottom: 3%;
+      font-size: 22px;
+   }
+   
+   
+   .beneficios__dat1{
+      background-color: green;
+      margin: 0 auto;
+      width: 45%;
+      padding: 3%;
+      border-radius: 50px;
+      border: 2px solid black;
+      box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img1{
+      border-radius: 30%;
+      width: 90%;
+   }
+   .beneficios__2{     
+      color: blue;
+      padding-bottom: 1%;
+      font-size: 28px;
+   }
+   .beneficios__22{
+      padding-bottom: 3%;
+      font-size: 22px;
+   }
+   
+
+   /* Footer */
+   footer{
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+   .contenedor-footer{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+   }
+   .content-foo h4{
+      border-bottom: 0px solid #af20d3;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 20px;
+   }
+   .content-foo p{
+      border-bottom: 0px solid #af20d3;
+      margin-bottom: 5%;
+      font-size: 20px;
+   }
+   .face{
+      font-size: 20px;
+   }
+
+   .Titulo-Final{
+      margin-top: 5%;
+      font-size: 31px;
+      color: #ff4800;
+   }
+}
+
+
+
+
+
+
+
+
+/* Green */
+@media screen and (max-width:550px){
+   main{
+      padding: 3%;
+   }
+   header{
+      height: auto;
+   }
+   nav{
+      width: 80%;
+      padding-top: 30%;
+      margin: 0 auto;
+   }
+   nav > a {
+      font-size: 27px;
+      margin-right: 3%;
+   }
+   
+   /* Main */
+   h1{
+      font-size: 35px;
+      padding-bottom: 0px;
+   }
+
+   .beneficios{
+      display:inline;
+   }
+   .p{
+      font-size: 20px;
+      padding-bottom: 5%;
+   }
+
+
+   .beneficios__dat{
+      background-color: green;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+      margin-bottom: 10%;
+   }
+   .beneficios__img{
+      width: 75%;
+   }
+   .beneficios__1{
+      padding-bottom: 1%;
+      font-size: 31px;
+   }
+   .beneficios__11{
+      padding-bottom: 3%;
+      font-size: 25px;
+   }
+   
+   
+   .beneficios__dat1{
+      background-color: green;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img1{
+      border-radius: 30%;
+      width: 75%;
+   }
+   .beneficios__2{     
+      color: blue;
+      padding-bottom: 1%;
+      font-size: 31px;
+   }
+   .beneficios__22{
+      padding-bottom: 3%;
+      font-size: 25px;
+   }
+   
+
+   /* Footer */
+   footer{
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+   .contenedor-footer{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+   }
+   .content-foo h4{
+      border-bottom: 0px solid #af20d3;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 20px;
+   }
+   .content-foo p{
+      border-bottom: 0px solid #af20d3;
+      margin-bottom: 5%;
+      font-size: 20px;
+   }
+   .face{
+      font-size: 20px;
+   }
+
+   .Titulo-Final{
+      margin-top: 5%;
+      font-size: 31px;
+      color: #ff4800;
+   }
+}
+
+
+
+
+/* Blue */
+@media screen and (max-width:450px){
+   main{
+      padding: 3%;
+   }
+   header{
+      width: 100%;
+      height: auto;
+      background: url(../IMG/l.jpg);
+      background-size: 100%;   
+   }
+   nav{
+      width: 80%;
+      padding-top: 41%;
+      margin: 0 auto;
+   }
+   nav > a {
+      font-size: 27px;
+      margin-right: 3%;
+   }
+   
+   /* Main */
+   h1{
+      font-size: 35px;
+      padding-bottom: 0px;
+   }
+
+   .beneficios{
+      display:inline;
+   }
+   .p{
+      font-size: 20px;
+      padding-bottom: 5%;
+   }
+
+
+   .beneficios__dat{
+      background-color: blue;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+      margin-bottom: 10%;
+   }
+   .beneficios__img{
+      width: 75%;
+   }
+   .beneficios__1{
+      padding-bottom: 1%;
+      font-size: 31px;
+      color: red;
+   }
+   .beneficios__11{
+      padding-bottom: 3%;
+      font-size: 25px;
+   }
+   
+   
+   .beneficios__dat1{
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img1{
+      border-radius: 30%;
+      width: 75%;
+   }
+   .beneficios__2{
+      padding-bottom: 1%;
+      font-size: 31px;
+   }
+   .beneficios__22{
+      padding-bottom: 3%;
+      font-size: 25px;
+   }
+   
+
+   /* Footer */
+   footer{
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+   .contenedor-footer{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+   }
+   .content-foo h4{
+      border-bottom: 0px solid #af20d3;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 20px;
+   }
+   .content-foo p{
+      border-bottom: 0px solid #af20d3;
+      margin-bottom: 5%;
+      font-size: 20px;
+   }
+   .face{
+      font-size: 20px;
+   }
+
+   .Titulo-Final{
+      margin-top: 5%;
+      font-size: 31px;
+      color: #ff4800;
+   }
+}
+
+
+
+
+/* Red */
+@media screen and (max-width:400px){
+   main{
+      padding: 3%;
+   }
+   header{
+      width: 100%;
+      height: auto;
+      background: url(../IMG/l.jpg);
+      background-size: 100%;   
+   }
+   nav{
+      width: 80%;
+      padding-top: 41%;
+      margin: 0 auto;
+   }
+   nav > a {
+      font-size: 24px;
+      margin-right: 3%;
+   }
+   
+   /* Main */
+   h1{
+      font-size: 31px;
+      padding-bottom: 0px;
+   }
+
+   .beneficios{
+      display:inline;
+   }
+   .p{
+      font-size: 18px;
+      padding-bottom: 5%;
+   }
+
+
+   .beneficios__dat{
+      background-color: red;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+      margin-bottom: 10%;
+   }
+   .beneficios__img{
+      width: 75%;
+   }
+   .beneficios__1{
+      padding-bottom: 1%;
+      font-size: 27px;
+      color: blue;
+   }
+   .beneficios__11{
+      padding-bottom: 3%;
+      font-size: 22px;
+   }
+   
+   
+   .beneficios__dat1{
+      background-color: red;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img1{
+      border-radius: 30%;
+      width: 75%;
+   }
+   .beneficios__2{
+      padding-bottom: 1%;
+      font-size: 27px;
+      color: blue;
+   }
+   .beneficios__22{
+      padding-bottom: 3%;
+      font-size: 22px;
+   }
+   
+
+   /* Footer */
+   footer{
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+   .contenedor-footer{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+   }
+   .content-foo h4{
+      border-bottom: 0px solid #af20d3;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 18px;
+   }
+   .content-foo p{
+      border-bottom: 0px solid #af20d3;
+      margin-bottom: 5%;
+      font-size: 18px;
+   }
+   .face{
+      font-size: 18px;
+   }
+
+   .Titulo-Final{
+      margin-top: 5%;
+      font-size: 27px;
+      color: #ff4800;
+   }
+   
+}
+
+
+
+
+/* Orange */
+@media screen and (max-width:350px){
+   main{
+      padding: 3%;
+   }
+   header{
+      width: 100%;
+      height: auto;
+      background: url(../IMG/l.jpg);
+      background-size: 100%;
+   }
+   nav{
+      padding-top: 41%;
+      width: 80%;
+      margin: 0 auto;
+   }
+   nav > a {
+      font-size: 21px;
+      margin-right: 3%;
+      color: pink;
+   }
+   
+   /* Main */
+   h1{
+      font-size: 27px;
+      padding-bottom: 0px;
+   }
+   .beneficios{
+      display:inline;
+   }
+   .p{
+      font-size: 16px;
+      padding-bottom: 5%;
+      color: black;
+   }
+
+
+   .beneficios__dat{
+      background-color: orange;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+      margin-bottom: 10%;
+   }
+   .beneficios__img{
+      width: 75%;
+   }
+   .beneficios__1{
+      padding-bottom: 1%;
+      font-size: 23px;
+   }
+   .beneficios__11{
+      padding-bottom: 3%;
+      font-size: 19px;
+      color: red;
+   }
+   
+   
+   .beneficios__dat1{
+      background-color: orange;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img1{
+      border-radius: 30%;
+      width: 75%;
+   }
+   .beneficios__2{
+      padding-bottom: 1%;
+      font-size: 23px;
+      color: blue;
+   }
+   .beneficios__22{
+      padding-bottom: 3%;
+      font-size: 19px;      
+      color: red;
+   }
+   
+
+   /* Footer */
+   footer{
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+   .contenedor-footer{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+   }
+   .content-foo h4{
+      border-bottom: 0px solid #af20d3;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 16px;
+   }
+   .content-foo p{
+      border-bottom: 0px solid #af20d3;
+      margin-bottom: 5%;
+      font-size: 16px;
+   }
+   .face{
+      font-size: 16px;
+   }
+
+   .Titulo-Final{
+      margin-top: 5%;
+      font-size: 23px;
+      color: #ff4800;
+   }
+   
+}
+
+
+
+
+/* Darkblue */
+@media screen and (max-width:300px){
+   main{
+      padding: 3%;
+   }
+   header{
+      width: 100%;
+      height: auto;
+      background: url(../IMG/l.jpg);
+      background-size: 100%;
+   }
+   nav{
+      padding-top: 40%;
+      width: 90%;
+   }
+   nav > a {
+      font-size: 18px;
+      margin-right: 3%;
+      color: #fff;  
+   }
+   
+   /* Main */
+   h1{
+      font-size: 23px;
+      padding-bottom: 0px;
+   }
+   .beneficios{
+      display:inline;
+   }
+   .p{
+      font-size: 14px;
+      padding-bottom: 5%;
+      color: yellow;
+   }
+
+
+   .beneficios__dat{
+      background-color: darkblue;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.5);
+      margin-bottom: 10%;
+   }
+   .beneficios__img{
+      width: 75%;
+   }
+   .beneficios__1{
+      padding-bottom: 1%;
+      font-size: 19px;
+      color: red;
+   }
+   .beneficios__11{
+      padding-bottom: 5%;
+      font-size: 16px;
+      color: #fff;
+   }
+   
+   
+   .beneficios__dat1{
+      background-color: darkblue;
+      margin: 0 auto;
+      width: 90%;
+      padding: 5%;
+      border-radius: 10%;
+      border: 2px solid black;
+      box-shadow: 0 0 20px 2.5px rgba(0, 0, 0, 0.5);
+   }
+   .beneficios__img1{
+      border-radius: 30%;
+      width: 75%;
+   }
+   .beneficios__2{
+      padding-bottom: 1%;
+      font-size: 19px;
+   }
+   .beneficios__22{
+      padding-bottom: 5%;
+      font-size: 16px;
+      color: #fff;
+   }
+   
+
+   /* Footer */
+   footer{
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+   .contenedor-footer{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+   }
+   .content-foo h4{
+      border-bottom: 0px solid #af20d3;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 14px;
+   }
+   .content-foo p{
+      border-bottom: 0px solid #af20d3;
+      margin-bottom: 5%;
+      font-size: 14px;
+   }
+   .face{
+      font-size: 14px;
+   }
+
+   .Titulo-Final{
+      margin-top: 5%;
+      font-size: 19px;
+      color: #ff4800;
+   }
+   
+}

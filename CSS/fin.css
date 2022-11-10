@@ -1,0 +1,632 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'open sans';
+}
+
+main{
+   background: url();
+} 
+ 
+header{
+   width: 100%;
+   height: 500px;
+   background-color: green;
+   background: url(../IMG/Logo\ Principal.jpg);
+   background-size: 100%;
+   background-attachment: fixed;
+   position: relative;
+   padding: 0.1px;
+}
+
+nav{
+   text-align: center;
+   padding-top: 400px;
+}
+
+nav > a {
+   font-size: 40px;
+   color: greenyellow;
+   text-decoration: none;
+   margin-right: 30px;
+   margin-top: 500px;
+}
+
+nav > a:hover{
+   text-decoration: underline;
+}
+
+.Curva{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+
+
+/* main */
+
+main{
+   background: linear-gradient(rgba(25, 0, 255, 0.8), 
+   rgba(0, 0, 0, 0.8));
+   width: 100%;
+   height: auto;
+   padding: 5%;
+   box-sizing: border-box;
+}
+
+
+/* Formulario PHP */
+
+.contene{
+   height: auto;
+}
+
+.contenido__correcto{
+   background-color: rgba(0, 128, 0, 0.75);
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 100px;
+   width: 90%;
+   height: auto;
+   padding: 5%;
+}
+.correcto{
+   text-align: center;
+   color: yellow;
+   padding: 20px;
+   font-size: 35px;
+}
+
+
+
+.contenido__incorrecto{
+   background-color: rgba(0, 0, 0, 0.75);
+   margin: 0 auto;
+   text-align: center;
+   border-radius: 100px;
+   width: 100%;
+   height: auto;
+   padding: 5%;
+}
+.incorrecto{
+   text-align: center;
+   color: red;
+   padding: 20px;
+   font-size: 35px;
+}
+
+
+
+.regresar{
+   text-decoration: none;
+   cursor: pointer;
+   background-color: red;
+   padding: 10px;
+   font-size: 25px;
+   border-radius: 15px;
+   color: black;
+}
+
+
+
+
+
+/* Footer */
+
+
+footer{
+   background: #414141;
+   padding: 50px 0 30px 0;
+   margin: auto;
+   overflow: hidden;
+}
+
+.contenedor-footer{
+   display: flex;
+   width: 90%;
+   justify-content: space-evenly;
+   margin: auto;
+   padding-bottom: 50px;
+   border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+   text-align: center;
+}
+
+.content-foo h4{
+   color: #fff;
+   border-bottom: 3px solid #af20d3;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+   font-size: 19px;
+}
+
+.content-foo p{
+   color: #ccc;
+   font-size: 16px;
+}
+
+.face{
+   color: #ccc;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.Titulo-Final{
+   text-align: center;
+   font-size: 30px;
+   margin: 20px 0 0 0;
+   color: #ff4800;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Adaptacion a Movil */
+
+@media screen and (max-width:1200px){
+
+   /* Header */
+   header{
+      height: auto;
+   }
+   nav{
+      width: 100%;
+      padding-top: 33%;
+      margin: 0 auto;
+      padding-bottom: 65px;
+   }
+   nav > a {
+      font-size: 40px;
+      margin-right: 3%;
+   }
+
+
+   /* main */
+   .contenido__correcto{
+      padding: 5% 5% 7% 5%;
+   }
+   .contenido__incorrecto{
+      padding: 5% 5% 7% 5%;
+   }
+
+
+   /* Footer */
+   .content-foo h4{
+      font-size: 17px;
+   }
+   .content-foo p{
+      font-size: 17px;
+   }
+   .face{
+      font-size: 17px;
+   }
+
+   .Titulo-Final{
+      font-size: 35px;
+   }
+}
+
+
+@media screen and (max-width:1000px){
+
+   /* Header */
+   nav > a {
+      font-size: 34px;
+   }
+}
+
+
+@media screen and (max-width:900px){
+
+   /* Header */
+   nav{
+      padding-bottom: 0px;
+   }
+   nav > a {
+      font-size: 32px;
+   }
+   .Curva{
+      visibility: hidden;
+   }
+}
+
+
+@media screen and (max-width:850px){
+
+   /* Header */
+   nav > a {
+      font-size: 30px;
+   }
+
+}
+
+
+@media screen and (max-width:800px){
+
+   /* Header */
+   nav > a {
+      font-size: 28px;
+   }
+   
+   
+   /* Footer */
+   .content-foo h4{
+      font-size: 17px;
+   }
+   .content-foo p{
+      font-size: 17px;
+   }
+   .face{
+      font-size: 17px;
+   }
+
+   .Titulo-Final{
+      font-size: 30px;
+   }
+}
+
+
+
+
+
+@media screen and (max-width:750px){
+
+   /* Header */
+   nav > a {
+      font-size: 25px;
+   }
+
+
+   /* Main */
+   .contenido__correcto{
+      border-radius: 100px;
+      width: 90%;
+      padding: 7% 7% 11% 7%;
+   }
+   .correcto{
+      padding: 20px 0;
+      font-size: 30px;
+   }
+   
+   
+   .contenido__incorrecto{
+      border-radius: 100px;
+      width: 100%;
+      padding: 7% 7% 11% 7%;
+   }
+   .incorrecto{
+      padding: 20px 0;
+      font-size: 30px;
+   }
+   
+   
+   .regresar{
+      padding: 10px;
+      font-size: 22px;
+      border-radius: 15px;
+   }
+   
+
+   /* Footer */
+   .content-foo h4{
+      font-size: 17px;
+   }
+   .content-foo p{
+      font-size: 17px;
+   }
+   .face{
+      font-size: 17px;
+   }
+
+   .Titulo-Final{
+      font-size: 29px;
+   }
+}
+
+
+@media screen and (max-width:600px){
+   
+   main{
+      padding: 7%;
+   }
+
+   /* Header */
+   nav > a {
+      font-size: 23px;
+   }
+
+
+   /* Footer */
+   .content-foo h4{
+      font-size: 16px;
+   }
+   .content-foo p{
+      font-size: 16px;
+   }
+   .face{
+      font-size: 16px;
+   }
+
+   .Titulo-Final{
+      font-size: 28px;
+   }
+}
+
+@media screen and (max-width:550px){
+
+   /* Header */
+   nav > a {
+      font-size: 22px;
+   }
+
+
+   /* Footer */
+   .content-foo h4{
+      font-size: 15px;
+   }
+   .content-foo p{
+      font-size: 15px;
+   }
+   .face{
+      font-size: 15px;
+   }
+
+   .Titulo-Final{
+      font-size: 27px;
+   }
+}
+
+
+
+
+
+@media screen and (max-width:500px){
+
+   /* Header */
+   header{
+      width: 100%;
+      background: url(../IMG/l.jpg);
+      background-size: 100%;  
+   }
+   nav{
+      width: 100%;
+      padding-top: 40%;
+      margin: 0 auto;
+   }
+   nav > a {
+      font-size: 30px;
+      margin-right: 3%;
+      color: white;
+   }
+
+
+
+   /* Main */
+   .contenido__correcto{
+      border-radius: 50px;
+      width: 100%;
+      padding: 7% 7% 11% 7%;
+   }
+   .correcto{
+      padding: 5px 0 20px 0;
+      font-size: 25px;
+   }
+
+
+   .contenido__incorrecto{
+      border-radius: 50px;
+      padding: 7% 7% 11% 7%;
+   }
+   .incorrecto{
+      padding: 0 0 20px 0;
+      font-size: 25px;
+   }
+
+   .regresar{
+      padding: 4%;
+      font-size: 18px;
+      border-radius: 20px;
+   }
+
+
+
+   /* Footer */
+   footer{
+      padding-top: 5%;
+      padding-bottom: 5%;
+   }
+   .contenedor-footer{
+      width: 100%;
+      display: inline-block;
+      padding-bottom: 5%;
+   }
+   .content-foo h4{
+      border-bottom: 0px solid #af20d3;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      font-size: 18px;
+   }
+   .content-foo p{
+      border-bottom: 0px solid #af20d3;
+      margin-bottom: 5%;
+      font-size: 18px;
+   }
+   .face{
+      font-size: 18px;
+   }
+
+   .Titulo-Final{
+      margin-top: 5%;
+      font-size: 27px;
+      color: #ff4800;
+   }
+}
+
+
+@media screen and (max-width:450px){
+
+   /* Header */
+   nav{
+      width: 100%;
+   }
+   nav > a {
+      font-size: 27px;
+   }
+
+
+   /* Footer */
+   .content-foo h4{
+      font-size: 16px;
+   }
+   .content-foo p{
+      font-size: 16px;
+   }
+   .face{
+      font-size: 16px;
+   }
+
+   .Titulo-Final{
+      font-size: 23px;
+   }
+}
+
+
+
+
+
+@media screen and (max-width:400px){
+   
+   main{
+      padding: 7%;
+   }
+
+   /* Header */
+   nav{
+      width: 100%;
+   }
+   nav > a {
+      font-size: 24px;
+   }
+
+
+   /* Main */
+   .contenido__correcto{
+      border-radius: 50px;
+      width: 100%;
+      padding: 7% 7% 11% 7%;
+   }
+   .correcto{
+      padding: 0;
+      font-size: 20px;
+   }
+
+   br{
+      width: 0;
+   }
+
+   .contenido__incorrecto{
+      border-radius: 50px;
+      padding: 7% 7% 11% 7%;
+   }
+   .incorrecto{
+      padding: 0;
+      font-size: 20px;
+   }
+
+   .regresar{
+      padding: 5%;
+      font-size: 14px;
+      border-radius: 15px;
+   }
+
+
+   /* Footer */
+   .content-foo h4{
+      font-size: 16px;
+   }
+   .content-foo p{
+      font-size: 16px;
+   }
+   .face{
+      font-size: 16px;
+   }
+
+   .Titulo-Final{
+      font-size: 23px;
+   }
+}
+
+
+@media screen and (max-width:350px){
+
+   /* Header */
+   nav{
+      width: 100%;
+   }
+   nav > a {
+      font-size: 21px;
+   }
+
+
+   /* Footer */
+   .content-foo h4{
+      font-size: 16px;
+   }
+   .content-foo p{
+      font-size: 16px;
+   }
+   .face{
+      font-size: 16px;
+   }
+
+   .Titulo-Final{
+      font-size: 23px;
+   }
+}
+
+
+@media screen and (max-width:300px){
+   
+   /* Header */
+   nav{
+      width: 100%;
+   }
+   nav > a {
+      font-size: 18px;
+   }
+
+
+   /* Footer */
+   .content-foo h4{
+      font-size: 14px;
+   }
+   .content-foo p{
+      font-size: 14px;
+   }
+   .face{
+      font-size: 14px;
+   }
+   
+   .Titulo-Final{
+      font-size: 19px;
+   }
+
+}

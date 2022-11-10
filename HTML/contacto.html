@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Natura Life</title>
+   <link rel="shortcut icon" href="../IMG/Logo de Ariba.jpg" type="image/x-icon">
+   <link rel="stylesheet" href="../CSS/contacto.css">
+</head>
+<body>
+   <header>
+      <nav>
+         <a href="../index.html">Inicio</a>
+         <a href="./productos.html">Productos</a>
+         <a href="./contacto.html">Contacto</a>
+         <a href="./promo.html">Promociones</a>
+         <a href="./ubicacion.html">Ubicación</a>
+      </nav>
+      <div class="Curva" style="height: 75px; overflow: hidden;" >
+         <svg viewBox="0 0 500 100" preserveAspectRatio="none"      style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C0.28,150.50 500.27,149.52 500.00,49.98 L500.84,149.52 L-104.68,283.72 Z" style="stroke: none; fill: rgb(79, 50, 255);">
+            </path>
+         </svg>
+      </div>
+   </header>
+ 
+   <main>
+      <section class="junto__flex">
+         <div class="formulario">
+            <h2 class="formulario__title">Contáctanos</h2>
+            <div class="formulario__flex">     
+               <form class="formulario__empieza" method="post" action="registro.php" name="form">
+                  <h3 class="formulario__campos">Campos obligatorios*</h3>
+
+                  <input type="text" name="nombre" placeholder="Nombre:" minlength="4" class="formulario__nombre" required>
+
+                  <input type="text" name="apellidos" placeholder="Apellidos:" minlength="4" class="formulario__apellidos" required>
+
+                  <input type="number" name="edad" min="18" placeholder="Edad:" class="formulario__edad" required>
+                  
+                  <input type="text" name="telefono" placeholder="Teléfono:" maxlength="12" minlength="10" class="formulario__telefono" required>
+                  <br>
+                  
+                  <select class="formulario__asunto" name="asunto">
+                     <option selected>Asunto</option>
+                     <option>Conocer los precios</option>
+                     <option>Asesoria</option>
+                     <option>Comprar</option>
+                     <option>Otro</option>
+                  </select>
+   
+                  <select class="formulario__municipio" name="municipio">
+                     <option selected>Elije tu Municipio</option>
+                     <option>Nicolas Romero</option>
+                     <option>Tlalnepantla</option>
+                     <option>Atizapan</option>
+                     <option>Otro</option>
+                  </select>
+
+                  <h4 class="formulario__llamada">Te llamaremos en tu tiempo disponible.</h4>
+
+                  <select class="formulario__dia" name="dia">
+                     <option>Dia disponible</option>
+                     <option>Todos los dias</option>
+                     <option>Lunes</option>
+                     <option>Martes</option>
+                     <option>Miercoles</option>
+                     <option>Jueves</option>
+                     <option>Viernes</option>
+                     <option>Sabado</option>
+                     <option>Domingo</option>
+                  </select>
+
+
+                  <select class="formulario__hora" name="hora" >
+                     <option>Hora disponible</option>
+                     <option>En cualquier momento</option>
+                     <option>7:00 am</option>
+                     <option>8:00 am</option>
+                     <option>9:00 am</option>
+                     <option>10:00 am</option>
+                     <option>11:00 am</option>
+                     <option>12:00 am</option>
+                     <option>1:00 pm</option>
+                     <option>2:00 pm</option>
+                     <option>3:00 pm</option>
+                     <option>4:00 pm</option>
+                     <option>5:00 pm</option>
+                     <option>6:00 pm</option>
+                     <option>7:00 pm</option>
+                     <option>8:00 pm</option>
+                     <option>9:00 pm</option>
+                     <option>10:00 pm</option>
+                  </select>
+                  <br>
+                  
+                  <textarea name="mensaje" placeholder="Mensaje*" minlength="20" class="formulario__mensaje" required></textarea>
+   
+                  <br><br>
+
+                  <h4 class="formulario__comentario">¿Qué te parecio la WEB?</h4>
+                  <textarea cols="30" rows="2" name="comentario" minlength="10" class="formulario__cuadro"></textarea>
+
+                  <br><br>
+
+                  <div class="formulario__boton">
+                     <input type="submit" value="Enviar" class="formulario__enviar">
+                     <input type="reset" value="Borrar" class="formulario__borrar">
+                  </div>
+
+               </form>
+      
+              <div class="slider">
+                  <ul>
+                     <li><img src="../IMG/Si tienes/1.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/2.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/3.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/4.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/5.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/6.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/7.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/8.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/9.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/10.jpg" alt=""></li>
+                     <li><img src="../IMG/Si tienes/11.jpg" alt=""></li>
+                 </ul>
+               </div>
+            </div>
+         </div>
+
+
+         
+         <div class="formulario2" method="post" action="" name="form">
+            <form action="">
+               <h2 class="formulario2__title">Comprar un Producto.</h2>
+
+               <h3 class="formulario2__campos">Campos obligatorios*</h3>
+
+               <input type="text" name="nombre" placeholder="Nombre:" minlength="4" class="formulario2__cuadros" required>
+
+               <input type="text" name="apellidos" placeholder="Apellidos:" minlength="4" class="formulario2__cuadros" required>
+               
+               <input type="text" name="telefono" placeholder="Teléfono:" maxlength="12" minlength="10" class="formulario2__cuadros" required>
+               <br>
+               
+               
+               <input type="text" name="municipio" placeholder="Municipio:" class="formulario2__cuadros" required>
+
+               <input type="text" name="colonia" placeholder="Colonia:" class="formulario2__cuadros" required>
+
+               <input type="text" name="calle" placeholder="Calle:" class="formulario2__cuadros" required>
+
+               
+               <div class="flex2__f2">
+                  <h4 class="formulario2__entre__calle">Entre la calle</h4>
+                  <input type="text" name="entre" class="formulario2__entre">
+                  <h4 class="formulario2__entre__calle">Y</h4>
+                  <input type="text" name="lacalle" class="formulario2__entre">
+               </div>
+
+               <textarea name="casa" placeholder="Caracteristicas del domicilio" minlength="15" class="formulario2__casa" required></textarea>
+
+               <label for="" class="formulario2__pisos">
+                  <div class="pisos__flex">
+                     <div class="pisos__center">
+                        <h4 class="pisos__title">Planta Baja</h4>
+                        <input type="checkbox" name="planta baja" class="piso__check">
+                     </div>
+                  </div>
+                  <div class="pisos__flex">
+                     <div class="pisos__center">
+                        <h4 class="pisos__title">1 Piso</h4>
+                        <input type="checkbox" name="1 piso" class="piso__check">
+                     </div>
+
+                  </div>
+                  <div class="pisos__flex">
+                     <div class="pisos__center">
+                        <h4 class="pisos__title">2 Pisos</h4>
+                        <input type="checkbox" name="2 pisos" class="piso__check">
+                     </div>
+                  </div>
+                  <div class="pisos__flex">
+                     <div class="pisos__center">
+                        <h4 class="pisos__title">3 pisos</h4>
+                        <input type="checkbox" name="3 pisos" class="piso__check">
+                     </div>
+                  </div>
+                  <div class="pisos__flex__edificio">
+                     <div class="pisos__center">
+                        <h4 class="pisos__title">Edificio</h4>
+                        <input type="checkbox" name="edificio" class="piso__check">
+                     </div>
+                  </div>
+               </label>
+
+               <h4 class="formulario2__llamada">¿Que día quieres que sea la entrega?</h4>
+               <center>
+                  <select class="formulario2__dia" name="dia">
+                     <option>Qualquier día</option>
+                     <option>Lunes</option>
+                     <option>Martes</option>
+                     <option>Miercoles</option>
+                     <option>Jueves</option>
+                     <option>Viernes</option>
+                     <option>Sabado</option>
+                     <option>Domingo</option>
+                  </select>
+               </center>
+
+
+               <h3 class="formulario2__productos__deceados">Selecciona el o los productos deceados</h3>
+               <label for="">
+                  <div class="flex__f2">
+                     <div class="ancho">
+                        <h2 class="products">Leche de alpiste</h2>
+                        <img src="../IMG/Leche de Alpiste.jpg" alt="">
+                        <center>
+                           <div class="costo">
+                              <div class="grande">
+                                 <p><b>Credito: $1290</b></p>
+                                 <p><b>Contado: $990</b></p>
+                              </div>
+                              <div class="chico">
+                                 <input type="checkbox" name="Leche" class="prod__check">
+                              </div>
+                           </div>
+                        </center>
+                     </div>
+                     <div class="ancho">
+                        <h2 class="products">Calcio de coral</h2>
+                        <img src="../IMG/Calcio de Coral.jpg" alt="">
+                        <center>
+                           <div class="costo">
+                              <div class="grande">
+                                 <p><b>Credito: $1290</b></p>
+                                 <p><b>Contado: $990</b></p>
+                              </div>
+                              <div class="chico">
+                                 <input type="checkbox" name="Leche" class="prod__check">
+                              </div>
+                           </div>
+                        </center>
+                     </div>
+                     <div class="ancho">
+                        <h2 class="products">Colageno</h2>
+                        <img src="../IMG/Colageno.jpg" alt="">
+                        <center>
+                           <div class="costo">
+                              <div class="grande">
+                                 <p><b>Credito: $1290</b></p>
+                                 <p><b>Contado: $990</b></p>
+                              </div>
+                              <div class="chico">
+                                 <input type="checkbox" name="Leche" class="prod__check">
+                              </div>
+                           </div>
+                        </center>
+                     </div>
+                     <div class="ancho">
+                        <h2 class="products">Fibranzana</h2>
+                        <img src="../IMG/Fibranzana.jpg" alt="">
+                        <center>
+                           <div class="costo">
+                              <div class="grande">
+                                 <p><b>Credito: $1290</b></p>
+                                 <p><b>Contado: $990</b></p>
+                              </div>
+                              <div class="chico">
+                                 <input type="checkbox" name="Leche" class="prod__check">
+                              </div>
+                           </div>
+                        </center>
+                     </div>
+                     <div class="ancho">
+                        <h2 class="products">Gel Refresh</h2>
+                        <img src="../IMG/Gel Refresh.jpg" alt="">
+                        <center>
+                           <div class="costo">
+                              <div class="grande">
+                                 <p><b>Credito: $1290</b></p>
+                                 <p><b>Contado: $990</b></p>
+                              </div>
+                              <div class="chico">
+                                 <input type="checkbox" name="Leche" class="prod__check">
+                              </div>
+                           </div>
+                        </center>
+                     </div>
+                     <div class="ancho">
+                        <h2 class="products">Mango Africano</h2>
+                        <img src="../IMG/Mago Africano.jpg" alt="">
+                        <center>
+                           <div class="costo">
+                              <div class="grande">
+                                 <p><b>Credito: $1290</b></p>
+                                 <p><b>Contado: $990</b></p>
+                              </div>
+                              <div class="chico">
+                                 <input type="checkbox" name="Leche" class="prod__check">
+                              </div>
+                           </div>
+                        </center>
+                     </div>
+                     <div class="ancho">
+                        <h2 class="products">Moringa</h2>
+                        <img src="../IMG/Moringa.jpg" alt="">                           
+                        <center>
+                           <div class="costo">
+                              <div class="grande">
+                                 <p><b>Credito: $1290</b></p>
+                                 <p><b>Contado: $990</b></p>
+                              </div>
+                              <div class="chico">
+                                 <input type="checkbox" name="Leche" class="prod__check">
+                              </div>
+                           </div>
+                        </center>
+                     </div>
+                     <div class="ancho">
+                        <h2 class="products">Semila de Uva</h2>
+                        <img src="../IMG/Semila de uva.jpg" alt="">
+                        <center>
+                           <div class="costo">
+                              <div class="grande">
+                                 <p><b>Credito: $1290</b></p>
+                                 <p><b>Contado: $990</b></p>
+                              </div>
+                              <div class="chico">
+                                 <input type="checkbox" name="Leche" class="prod__check">
+                              </div>
+                           </div>
+                        </center>
+                     </div>
+                  </div>
+               </label>
+
+               <div class="formulario2__boton">
+                  <input type="submit" value="Enviar" class="formulario2__enviar">
+                  <input type="reset" value="Borrar" class="formulario2__borrar">
+               </div>
+            </form>
+         </div>
+      </section>
+   </main>
+   <footer>
+      <div class="contenedor-footer">
+         <div class="content-foo">
+            <h4>Telefono de Oficina</h4>
+            <p>55-16-60-09-09</p>
+         </div>
+         <div class="content-foo">
+            <h4>WhatsApp</h4>
+            <p>55-75-34-79-13</p>
+         </div>
+         <div class="content-foo">
+            <h4>Facebook</h4>
+            <a href="https://www.facebook.com/naturalifenaturalmente" class="face" target="_blank">Naturalife Naturalmente Saludable</a>
+         </div>
+      </div>
+      <h2 class="Titulo-Final">&copy; Naturalife Naturalmente Saludable</h2>
+   </footer>
+</body>
+</html>

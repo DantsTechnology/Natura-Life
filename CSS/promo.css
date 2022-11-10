@@ -1,0 +1,171 @@
+*{
+   margin:0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   font-family: 'open sans';
+}
+ 
+ 
+header{
+   width: 100%;
+   height: 500px;
+   background-color: green;
+   background: url(../IMG/Logo\ Principal.jpg);
+   background-size: 100%;
+   background-attachment: fixed;
+   position: relative;
+   padding: 0.1px;
+}
+
+nav{
+   text-align: center;
+   padding-top: 400px;
+}
+
+nav > a {
+   font-size: 40px;
+   color: pink;
+   text-decoration: none;
+   margin-right: 30px;
+   margin-top: 500px;
+}
+
+nav > a:hover{
+   text-decoration: underline;
+}
+
+.Curva{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+
+/* main */
+
+main{
+   background: linear-gradient(rgb(1, 13, 122), 
+   rgba(87, 42, 6, 0.98));
+   width: 100%;
+   height: auto;
+   padding: 5%;
+}
+
+
+.grupo{
+   display: flex;
+}
+
+/* 
+.clearfix{
+   clear: both;
+}
+ */
+
+.contenedor{
+   background-color: rgba(0, 0, 0, 0.685);
+   margin: 0 auto;
+   width: 46.5%;
+   height: auto;
+   padding: 5%;
+   border-radius: 10%;
+}
+
+
+.promo{
+   display: flex;
+}
+.promo1{
+   width: 50%;
+}
+.promo2{
+   width: 50%;
+}
+
+
+.promo__text{
+   color: yellow;
+   text-align: center;
+   font-size: 175%;
+   margin-bottom: 2%;
+}
+
+
+.promo__img{
+   width: auto;
+   height: 200px;
+   border: 5px solid blue;
+   border-radius: 10%;
+}
+
+
+.promo__price2{
+   margin-top: 2.5%;
+   font-size: 200%;
+   color: violet;
+   text-align: center;
+}
+.promo__price1{
+   margin-top: 2%;
+   font-size: 150%;
+   color: orange;
+   text-align: center;
+}
+
+
+
+
+
+
+
+/* Footer */
+
+
+footer{
+   background: #414141;
+   padding: 50px 0 30px 0;
+   margin: auto;
+   overflow: hidden;
+}
+
+.contenedor-footer{
+   display: flex;
+   width: 90%;
+   justify-content: space-evenly;
+   margin: auto;
+   padding-bottom: 50px;
+   border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+   text-align: center;
+}
+
+.content-foo h4{
+   color: #fff;
+   border-bottom: 3px solid #af20d3;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+   font-size: 19px;
+}
+
+.content-foo p{
+   color: #ccc;
+   font-size: 16px;
+}
+
+.face{
+   color: #ccc;
+   text-decoration: none;
+   font-size: 16px;
+}
+
+.Titulo-Final{
+   text-align: center;
+   font-size: 30px;
+   margin: 20px 0 0 0;
+   color: #ff4800;
+}
